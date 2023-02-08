@@ -14,6 +14,7 @@ import * as Styled from './FavoriteAndShare.styles';
 
 export default function FavoriteAndShare(props) {
   const { recipe, link, onlyShare, onlyFavorite, execOnShare, execOnFavorite } = props;
+  console.log(props);
 
   const { id } = useParams();
 
